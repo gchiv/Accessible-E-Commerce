@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Seleccion de burger</title>
 </head>
+
 <body>
-    
+    <h1>ARMA TU PEDIDO </h1>
+    <!-- <form action="#" method="POST">
+        <label for="burger"> QUE BURGER VAS A PROBAR HOY?</label>
+        <select id="burger" name="burger"> 
+        <option value="bacon"> BACON $115 </option>
+        <option value="cheese"> CHEESE $115 </option>
+        <option value="americana"> AMERICANA $115 </option>
+        <option value="mexicana"> MEXICANA $165 </option>
+        <option value="ultracheese"> ULTRACHEESE $165 </option>
+        <option value="oklahoma"> OKLAHOMA $165 </option>
+        </select>
+        <br> <br>
+        <label for="cantidad"> Cantidad: </label>
+        <input type="number" id="cantidad" name="cantidad" min="1" value="1">
+        <br><br>
+        <button type="submit"> Agregar a la orden </button> -->
+
+    <form id="formulario" action="#" method="post">
+        <h2> QUE BURGER VAS A PROBAR HOY? </h2>
+        <div class="producto">
+            <input type="radio" id="bacon" name="bacon" value="bacon" hidden>
+            <label for="bacon">
+                <img src="burgersfoto/bacon.jpg" alt="BACON" width="200">
+                <p> BACON $115 </p>
+            </label>
+        </div>
+
+        <div class="cantidad-container">
+            <label for="cantidad">CANTIDAD:</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" value="1">
+            <br><br>
+            <button type="submit">AGREGAR A LA ORDEN</button>
+        </div>
+
+
+    </form>
+
+
+
 </body>
+
 </html>

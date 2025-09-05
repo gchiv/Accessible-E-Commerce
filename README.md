@@ -6,3 +6,4 @@ Accessible E-Commerce: La plataforma de comercio online diseñada con accesibili
 - Jose Manuel Castillo Queh
 - Gabriel Chi Vidal
 - Angel Antonio Perez Reyes
+- Mauricio Alberto Sonda Cahuich

@@ -1,29 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datos de Envio</title>
-</head>
-<body>
-    <h1>Datos de Envio</h1>
 
-    <form action="">
-        <label for="nombre">Nombre: </label>
-        <input type="text" name="nombre" id="nombre">
-        <br><br>
-        <label for="apellido">Apellido: </label>
-        <input type="text" name="apellido" id="apellido">
-        <br><br>
-        <label for="email">Correo Electronico: </label>
-        <input type="text" name="email" id="email">
-        <br><br>
-        <label for="telefono">Telefono :</label>
-        <input type="number" name="telefono" id="telefono" placeholder="Telefono">
-        <br><br>
-        <select name="" id="">
-            
-        </select>
-    </form>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos de Envio</title>
+</head>
+
+<body>
+  <h1>Datos de Envio</h1>
+
+  <form action="">
+    <label for="nombre">Nombre: </label>
+    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+    <br><br>
+    <label for="apellido">Apellido: </label>
+    <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido">
+    <br><br>
+    <label for="email">Correo Electronico: </label>
+    <input type="text" name="email" id="email" placeholder="Escribe tu correo">
+    <br><br>
+    <label for="telefono">Telefono :</label>
+    <input type="number" name="telefono" id="telefono" placeholder="Escribe tu Telefono">
+    <br><br>
+    Estado: 
+    <select name="" id="">  
+      <option value="">Selecciona un estado</option>
+      <option value="Aguascalientes">Aguascalientes</option>
+      <option value="Baja California">Baja California</option>
+      <option value="Baja California Sur">Baja California Sur</option>
+      <option value="Campeche">Campeche</option>
+      <option value="Chiapas">Chiapas</option>
+      <option value="Chihuahua">Chihuahua</option>
+      <option value="Ciudad de México">Ciudad de México</option>
+      <option value="Coahuila">Coahuila</option>
+      <option value="Colima">Colima</option>
+      <option value="Durango">Durango</option>
+      <option value="Estado de México">Estado de México</option>
+      <option value="Guanajuato">Guanajuato</option>
+      <option value="Guerrero">Guerrero</option>
+      <option value="Hidalgo">Hidalgo</option>
+      <option value="Jalisco">Jalisco</option>
+      <option value="Michoacán">Michoacán</option>
+      <option value="Morelos">Morelos</option>
+      <option value="Nayarit">Nayarit</option>
+      <option value="Nuevo León">Nuevo León</option>
+      <option value="Oaxaca">Oaxaca</option>
+      <option value="Puebla">Puebla</option>
+      <option value="Querétaro">Querétaro</option>
+      <option value="Quintana Roo">Quintana Roo</option>
+      <option value="San Luis Potosí">San Luis Potosí</option>
+      <option value="Sinaloa">Sinaloa</option>
+      <option value="Sonora">Sonora</option>
+      <option value="Tabasco">Tabasco</option>
+      <option value="Tamaulipas">Tamaulipas</option>
+      <option value="Tlaxcala">Tlaxcala</option>
+      <option value="Veracruz">Veracruz</option>
+      <option value="Yucatán">Yucatán</option>
+      <option value="Zacatecas">Zacatecas</option>
+    </select>
+    <br><br>
+    <label for="CodigoPostal">Codigo Postal: </label>
+    <input type="number" name="CodigoPostal" id="CodigoPostal" placeholder="Ingresa tu Codigo Postal">
+    <br><br>
+    <label for="Colonia">Colonia: </label>
+    <input type="text" name="Colonia" id="Colonia" placeholder="Ingresa tu Colonia">
+    <br><br>
+    <label for="Calle">Calle: </label>  
+    <input type="text" name="Calle" id="Calle" placeholder="Ingresa tu Calle">
+    <br><br>
+    <label for="NumeroExterior">Numero Exterior: </label>
+    <input type="text" name="NumeroExterior" id="NumeroExterior" placeholder="Ingresa tu Numero Exterior">
+    <br><br>
+    <label for="NumeroInterior">Numero Interior: </label>
+    <input type="text" name="NumeroInterior" id="NumeroInterior" placeholder="Ingresa tu Numero Interior">
+    <br><br>
+    <label for="InstruccionesAdicionales">Instrucciones Adicionales: </label>
+    <input type="text" name="InstruccionesAdicionales" id="InstruccionesAdicionales" placeholder="Ingresa Instrucciones Adicionales">
+    <br><br>
+    <label for="Envio">Tipo de envio: </label>
+    <input type="radio" name="Envio" id="Envio" value="Estándar"> Estándar
+    <input type="radio" name="Envio" id="Envio" value="Express"> Express
+    <br><br>
+    <label for="Terminos"></label>
+    <input type="checkbox" name="Terminos" id="Terminos"> <a href="">Acepto los términos y condiciones</a>
+  </form>
 </body>
+
 </html>
